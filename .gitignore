@@ -1,3 +1,6 @@
 /node_modules
 /packages/*/node_modules
-/scripts/*/node_modules
+/packages/*/dist
+/packages/*/.turbo
+/scripts/node_modules
+/examples/*/node_modules
