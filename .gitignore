@@ -4,3 +4,4 @@
 /packages/*/.turbo
 /scripts/node_modules
 /examples/*/node_modules
+.DS_Store
