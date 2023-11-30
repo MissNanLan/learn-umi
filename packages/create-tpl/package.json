@@ -1,0 +1,35 @@
+{
+  "name": "create-tpl",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [],
+  "authors": [],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "create-tpl": "bin/create-tpl.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@types/node": "^20.10.0",
+    "chalk": "^5.3.0",
+    "father": "^4.3.7"
+  },
+  "dependencies": {
+    "@umijs/utils": "^4.0.89"
+  }
+}
