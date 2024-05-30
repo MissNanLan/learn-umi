@@ -6,6 +6,9 @@
   "scripts": {
     "start": "create-tpl"
   },
+  "devDependencies": {
+    "create-tpl": "link:/Users/nanlan/Documents/com-project/learn-umi/packages/create-tpl"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

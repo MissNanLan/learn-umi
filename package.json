@@ -10,12 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "father": "^4.3.7",
-    "tsx": "^4.5.0",
-    "typescript": "^5.3.2",
     "@umijs/utils": "workspace:*",
+    "father": "^4.3.7",
+    "prettier": "^2.8.4",
     "scripts": "workspace:*",
-    "prettier": "^2.8.4"
+    "tsx": "^4.5.0",
+    "typescript": "^5.3.2"
   },
   "dependencies": {
     "chalk": "^5.3.0"
